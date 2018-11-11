@@ -1,4 +1,5 @@
 var html = require('choo/html')
+const Nav = require('../components/Nav');
 
 module.exports = view
 

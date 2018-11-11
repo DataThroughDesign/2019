@@ -41,7 +41,7 @@ return html`
         <p class="f3 f2-ns f-headline b ma0 w4 h4"><img src="https://www1.nyc.gov/assets/operations/images/content/researchandanalytics/programs_Analytics.png" alt="MODA logo"></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
-          <p class=""><a href="#">Your Organization Here!</a></p>
+          <p class=""><a class="link black hover-bg-white" href="#">Your Organization Here!</a></p>
           <p class="f3 f2-ns f-headline b ma0">🦄</p>
         </div>
     </section>

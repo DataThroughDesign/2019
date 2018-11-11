@@ -6,14 +6,13 @@ module.exports = function (name, state, emit) {
 
   let toggleDropdown = function(e){
     e.preventDefault();
-    console.log(e.target.childNodes[1])
     e.target.childNodes[1].classList.toggle("dn");
   }
 
   return html `
     <nav class="pa3 pa4-ns flex flex-row-ns flex-column">
-      <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline">Data ✕ Design <br> <span class="f4 i">Data Through Design</span></section>
-      <section class="flex flex-column w-100 w-75-ns bt bb">
+      <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="/">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
+      <section class="flex flex-column justify-center w-100 w-75-ns bt bb">
         <section class="flex flex-row w-100 justify-between pa2 bb">
           <div class="tl flex-1">March 01 - TBD, 2019</div>
           <div class="tr">An independently organized exhibition⁺ for data and cartography</div>
@@ -22,19 +21,19 @@ module.exports = function (name, state, emit) {
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
             <li onclick=${toggleDropdown} class="mr2">Program ▾
               <ul class="list outline bg-white pa2 dn">
-                <li class="bt pa2">Exhibtion</li>
-                <li class="bt pa2 pb2">Talks</li>
-                <li class="bt pa2 pb2">Workshop(s)</li>
+                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
+                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
+                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/workshops">Workshops</a></li>
               </ul>
             </li>
-            <li class="mr2">Schedule</li>
-            <li class="mr2">About</li>
+            <li class="mr2"><a class="link black hover-bg-white" href="/schedule">Schedule</a></li>
+            <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
             <li onclick=${toggleDropdown} class="mr2">Past Events ▾
               <ul class="list outline bg-white pa2 dn">
               <li class="bt pa2">2018</li>
               </ul>
             </li>
-            <li class="mr2">Submit</li>
+            <li class="mr2"><a class="link black hover-bg-white" href="/submit">Submit</a></li>
           </ul>
         </section>
       </section>
@@ -65,12 +64,12 @@ module.exports = function (name, state, emit) {
 
 /** 
 <nav class="pa3 pa4-ns">
-      <a class="link dim white b f1 f-headline-ns tc db mb1 mb4-ns" href="#" title="Home"> <span class="bg-light-pink">DATA ✕ DESIGN </span> </a>
+      <a class="link black hover-bg-white" class="link dim white b f1 f-headline-ns tc db mb1 mb4-ns" href="#" title="Home"> <span class="bg-light-pink">DATA ✕ DESIGN </span> </a>
       <div class="tc pb3">
-        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="Home">Home</a>
-        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="About">About</a>
-        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="Submit">Submit</a>
-        <a class="link dim gray f6 f5-ns dib" href="#" title="Contact">Contact</a>
+        <a class="link black hover-bg-white" class="link dim gray f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+        <a class="link black hover-bg-white" class="link dim gray f6 f5-ns dib mr3" href="#" title="About">About</a>
+        <a class="link black hover-bg-white" class="link dim gray f6 f5-ns dib mr3" href="#" title="Submit">Submit</a>
+        <a class="link black hover-bg-white" class="link dim gray f6 f5-ns dib" href="#" title="Contact">Contact</a>
       </div>
     </nav>
 */
