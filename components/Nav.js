@@ -4,6 +4,11 @@ var html = require('choo/html')
 
 module.exports = function (name, state, emit) {
 
+  let toggleDropdown = function(e){
+    e.preventDefault();
+    console.log(e.target.childNodes[1])
+    e.target.childNodes[1].classList.toggle("dn");
+  }
 
   return html `
     <nav class="pa3 pa4-ns flex flex-row-ns flex-column">
@@ -15,10 +20,20 @@ module.exports = function (name, state, emit) {
         </section>
         <section class="flex flex-row">
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
-            <li class="mr2">Program ▾</li>
+            <li onclick=${toggleDropdown} class="mr2">Program ▾
+              <ul class="list outline bg-white pa2 dn">
+                <li class="bt pa2">Exhibtion</li>
+                <li class="bt pa2 pb2">Talks</li>
+                <li class="bt pa2 pb2">Workshop(s)</li>
+              </ul>
+            </li>
             <li class="mr2">Schedule</li>
             <li class="mr2">About</li>
-            <li class="mr2">Past Events ▾</li>
+            <li onclick=${toggleDropdown} class="mr2">Past Events ▾
+              <ul class="list outline bg-white pa2 dn">
+              <li class="bt pa2">2018</li>
+              </ul>
+            </li>
             <li class="mr2">Submit</li>
           </ul>
         </section>

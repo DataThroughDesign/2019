@@ -13,7 +13,7 @@ return html`
   </header>
   <main class="flex flex-column">
     <section class="flex flex-row-ns w-100 pa3 pa4-ns flex-column-reverse flex-wrap-reverse">
-      <section class="flex flex-column w-100 w-50-l pa4 outline">
+      <section class="flex flex-column w-100 w-50-l pa4-ns pa2 outline">
         <small class="b">DTD #002:</small>
         <h1 class="f4 f2-l fw7">NaN - <span class="i">Not a Number</span></h1>
         <p>In computing, NaN, standing for not a number, is a numeric data type value representing an undefined or
@@ -31,10 +31,49 @@ return html`
           otherwise return a computational error statement - the NaN - actually being assigned numerical values that
           affect life in the city?</h2>
       </section>
-
+    </section>
+  <section class="flex flex-row-ns flex-column w-100 pa3 pa4-ns justify-center items-center mb0">
+      <p class="f4 f-subsubheadline w-100 w-60-ns tc-ns tl">In association with NYC's Mayor's Office of Data Analytics (MODA) and supported by these lovely organizations</p>
+      </section>
+    <section class="flex flex-row-ns flex-column w-100 w-100-ns pa2 pa2-ns">
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="">MODA</p>
+        <p class="f3 f2-ns f-headline b ma0 w4 h4"><img src="https://www1.nyc.gov/assets/operations/images/content/researchandanalytics/programs_Analytics.png" alt="MODA logo"></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
+          <p class=""><a href="#">Your Organization Here!</a></p>
+          <p class="f3 f2-ns f-headline b ma0">🦄</p>
+        </div>
     </section>
   </main>
-  <footer></footer>
+  <footer class="flex flex-row-ns w-100 pa3 pa4-ns justify-between mt6 bt flex-wrap">
+    <p class="f7">#DataThroughDesign19</p>
+    <p class="f7">Built with ♥︎ by Joey Lee using Choo.js & Tachyons Css</p>
+  </footer>
 </body>
 `
 }
+
+/**
+
+<!-- <section class="flex flex-row-ns flex-column w-100 pa3 pa4-ns">
+        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
+            <p class="">events</p>
+          <p class="f3 f2-ns f-headline b ma0">X</p>
+        </div>
+        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
+            <p class="">artists</p>
+          <p class="f3 f2-ns f-headline b ma0">8-10</p>
+          
+        </div>
+        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline">
+            <p class="">in association with</p>
+          <p class="f3 f2-ns f-headline b ma0">MODA</p>
+        </div>
+        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline">
+            <p class="">in association with</p>
+          <p class="f3 f2-ns f-headline b ma0">MODA</p>
+        </div>
+    </section> -->
+
+    */
