@@ -5,8 +5,9 @@ var html = require('choo/html')
 module.exports = function (name, state, emit) {
 
   let toggleDropdown = function(e){
-    e.preventDefault();
-    e.target.childNodes[1].classList.toggle("dn");
+    e.preventDefault(); 
+    console.log(this.dataset.name)
+      document.querySelector(`#${this.dataset.name}`).classList.toggle("dn");
   }
 
   return html `
@@ -19,8 +20,9 @@ module.exports = function (name, state, emit) {
         </section>
         <section class="flex flex-row">
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
-            <li onclick=${toggleDropdown} class="mr2">Program ▾
-              <ul class="list outline bg-white pa2 dn">
+            <li class="mr2">
+              <a class="link black hover-bg-white" href="#" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
+              <ul id="programList" class="list outline bg-white pa2 dn">
                 <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/workshops">Workshops</a></li>
@@ -28,8 +30,8 @@ module.exports = function (name, state, emit) {
             </li>
             <li class="mr2"><a class="link black hover-bg-white" href="/schedule">Schedule</a></li>
             <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
-            <li onclick=${toggleDropdown} class="mr2">Past Events ▾
-              <ul class="list outline bg-white pa2 dn">
+            <li class="mr2"> <a class="link black hover-bg-white" href="#" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
+              <ul id="pastEvents" class="list outline bg-white pa2 dn">
               <li class="bt pa2">2018</li>
               </ul>
             </li>
