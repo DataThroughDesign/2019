@@ -13,9 +13,7 @@ return html`
   <main class="flex flex-column">
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100">
-        <h1>DTD #002:<span class="i">
-            <h2>NaN - <span>Not a Number</span></h2>
-          </span></h1>
+        <h1>Exhibition: NaN - <span class="i">Not a Number</span></h1>
       </div>
 
       <div class="w-100 w-50-ns pr2">
@@ -34,10 +32,10 @@ return html`
     </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100">
-        <h1>Commissioned Artists</h1>
+        <h1>2019 Artists</h1>
       </div>
       <div class="w-100 w-80-ns pr2">
-        <p>Interested to be be commissioned for DTD'19? <a href="/submit">Submit a proposal!</a></p>
+        <p>Interested to be be commissioned for DTD'19? <a class="link black underline hover-bg-white" href="/submit">Submit a proposal!</a></p>
       </div>
 
       <div class="w-100 w-80-ns pr2 dn">

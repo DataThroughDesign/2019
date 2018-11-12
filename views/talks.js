@@ -30,14 +30,26 @@ return html`
           <p>Proxies can also be fun and make you smile and act as a bridge between unconnectable things. In this series of talks, we ask our speakers
             to reflect on and share with us their stories and data projects that speak to the proxies of the
             unrepresentable value of our city and its citizens.</p>
-            <p>We are lucky this year to have the following speakers share their experiences, insights, and work:</p>
-            <ul class="">
-              <li><a href="">Person</a>, <a href="">Talk Title</a> </li>
-            </ul>
         </div>
     </section>
-    
-
+    <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
+        <div class="w-100">
+          <h1>2019 Talks</h1>
+        </div>
+        <div class="w-100 w-80-ns pr2">
+          <p>Interested to give a talk for DTD'19? <a href="/submit">Submit a proposal!</a></p>
+        </div>
+  
+        <div class="w-100 w-80-ns pr2 dn">
+          <p>We are proud to present the work of the following artists. Our artists come from backgrounds ranging from
+            fine arts, engineering, urban planning, and more.</p>
+          <ul>
+            <li><a href="">Artist</a> <a href="#">name of project</a></li>
+            <li><a href="">Artist</a> <a href="#">name of project</a></li>
+          </ul>
+        </div>
+  
+      </section>
   </main>
   <footer class="flex flex-row-ns w-100 pa3 pa4-ns justify-between mt6 bt flex-wrap">
     <p class="f7">#DataThroughDesign19</p>
