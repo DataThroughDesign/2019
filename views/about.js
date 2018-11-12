@@ -11,6 +11,12 @@ return html`
     ${state.cache(Nav, "Nav", state, emit)}
   </header>
   <main class="flex flex-column">
+      <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
+          <div class="w-100">
+          <h1>Contact</h1>
+          <p>For inquiries, please reach out to us at: email@datathroughdesign.com </p>
+          </div>
+      </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100">
       <h1>About <span class="i">Data Through Design</span></h1>
