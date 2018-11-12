@@ -21,7 +21,7 @@ module.exports = function (name, state, emit) {
         <section class="flex flex-row">
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
             <li class="mr2">
-              <a class="link black hover-bg-white" href="#" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
+              <a class="link black hover-bg-white" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
               <ul id="programList" class="list outline bg-white pa2 dn">
                 <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
@@ -30,7 +30,7 @@ module.exports = function (name, state, emit) {
             </li>
             <li class="mr2"><a class="link black hover-bg-white" href="/schedule">Schedule</a></li>
             <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
-            <li class="mr2"> <a class="link black hover-bg-white" href="#" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
+            <li class="mr2"> <a class="link black hover-bg-white" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
               <ul id="pastEvents" class="list outline bg-white pa2 dn">
               <li class="bt pa2">2018</li>
               </ul>
