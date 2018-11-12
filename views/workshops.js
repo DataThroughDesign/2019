@@ -22,7 +22,7 @@ return html`
           storytelling.</p>
       </div>
       <div class="w-100 w-50-ns">
-          <p>Not sure if your idea fits? <a href="/submit">Submit a proposal</a> anyways and we'll get back to you. We're happy to hear your ideas.</p>
+          <p>Not sure if your idea fits? <a class="link black underline" href="/submit">Submit a proposal</a> anyways and we'll get back to you. We're happy to hear your ideas.</p>
         <p class="dn">This year we are happy to host the following people and their workshops:</p>
         <ul class="dn">
           <li><a href="">Person</a>, <a href="">Talk Title</a> </li>
@@ -34,7 +34,7 @@ return html`
           <h1>2019 Workshops</h1>
         </div>
         <div class="w-100 w-80-ns pr2">
-          <p>Interested to give a wokrshop for DTD'19? <a href="/submit">Submit a proposal!</a></p>
+          <p>Interested to give a wokrshop for DTD'19?  <a class="link black underline" href="/submit">Submit a proposal</a></p>
         </div>
   
         <div class="w-100 w-80-ns pr2 dn">
