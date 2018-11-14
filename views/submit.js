@@ -17,9 +17,9 @@ return html`
         <p class="w-100 w-60-ns">Submit a proposal to give a talk, workshop, and/or project for DTD 2019.</p>
         <p class="w-100 w-60-ns">Please refer to the following sections for information about the themes for the open call</p>
         <ul>
-          <li><a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a></li>
-          <li><a class="link black hover-bg-white underline" href="/talks">Talks</a></li>
-          <li><a class="link black hover-bg-white underline" href="/workshops">Workshops</a></li>
+          <li><a class="link black hover-bg-white underline" href="./exhibition">Exhibition</a></li>
+          <li><a class="link black hover-bg-white underline" href="./talks">Talks</a></li>
+          <li><a class="link black hover-bg-white underline" href="./workshops">Workshops</a></li>
         </ul>
         <p><a class="link black hover-bg-white outline pa2 bg-white" href="#">↳ Submit your proposal here</a></p>
       </div>

@@ -35,7 +35,7 @@ return html`
         <h1>2019 Artists</h1>
       </div>
       <div class="w-100 w-80-ns pr2">
-        <p>Interested to be be commissioned for DTD'19? <a class="link black underline hover-bg-white" href="/submit">Submit a proposal!</a></p>
+        <p>Interested to be be commissioned for DTD'19? <a class="link black underline hover-bg-white" href="./submit">Submit a proposal!</a></p>
       </div>
 
       <div class="w-100 w-80-ns pr2 dn">

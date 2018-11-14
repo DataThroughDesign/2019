@@ -24,7 +24,7 @@ return html`
           to speak to the ways in which space and place are being transformed and shaped by the numbers that are meant
           to represent complexity in the everyday. We ask our artists to reflect on the stories within our city’s open
           data that speak to the undefined or unrepresentable value of the things that the data may be hiding.</p>
-        <p><a class="link black outline bg-white pa2" href="/submit"> ↳ Submit a proposal</a></p>
+        <p><a class="link black outline bg-white pa2" href="./submit"> ↳ Submit a proposal</a></p>
       </section>
       <section class="flex flex-column w-100 w-50-l pa4-ns pa2 justify-center items-center">
         <h2 class="f5 f3-ns f-subsubheadline i">...how are the fundamentally unquantifiable things, the things that should

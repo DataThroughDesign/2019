@@ -12,7 +12,7 @@ module.exports = function (name, state, emit) {
 
   return html `
     <nav class="pa3 pa4-ns flex flex-row-ns flex-column">
-      <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="/">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
+      <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="./">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
       <section class="flex flex-column justify-center w-100 w-75-ns bt bb">
         <section class="flex flex-row w-100 justify-between pa2 bb">
           <div class="tl flex-1">March 01 - TBD, 2019</div>
@@ -23,19 +23,19 @@ module.exports = function (name, state, emit) {
             <li class="mr2">
               <a class="link black hover-bg-white" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
               <ul id="programList" class="list outline bg-white pa2 dn">
-                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
-                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
-                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/workshops">Workshops</a></li>
+                <li class="bt pa2"><a class="link black hover-bg-white" href="./exhibition">Exhibtion</a></li>
+                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="./talks">Talks</a></li>
+                <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="./workshops">Workshops</a></li>
               </ul>
             </li>
-            <li class="mr2"><a class="link black hover-bg-white" href="/schedule">Schedule</a></li>
-            <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
+            <li class="mr2"><a class="link black hover-bg-white" href="./schedule">Schedule</a></li>
+            <li class="mr2"><a class="link black hover-bg-white" href="./about">About</a></li>
             <li class="mr2"> <a class="link black hover-bg-white" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
               <ul id="pastEvents" class="list outline bg-white pa2 dn">
               <li class="bt pa2">2018</li>
               </ul>
             </li>
-            <li class="mr2"><a class="link black hover-bg-white" href="/submit">Submit</a></li>
+            <li class="mr2"><a class="link black hover-bg-white" href="./submit">Submit</a></li>
           </ul>
         </section>
       </section>
