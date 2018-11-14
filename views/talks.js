@@ -37,7 +37,7 @@ return html`
           <h1>2019 Talks</h1>
         </div>
         <div class="w-100 w-80-ns pr2">
-          <p>Interested to give a talk for DTD'19? <a class="link black underline" href="./submit">Submit a proposal!</a></p>
+          <p>Interested to give a talk for DTD'19? <a class="link black underline" href="/submit">Submit a proposal!</a></p>
         </div>
   
         <div class="w-100 w-80-ns pr2 dn">
