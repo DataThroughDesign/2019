@@ -21,7 +21,7 @@ return html`
           <li><a class="link black hover-bg-white underline" href="/talks">Talks</a></li>
           <li><a class="link black hover-bg-white underline" href="/workshops">Workshops</a></li>
         </ul>
-        <p><a class="link black hover-bg-white outline pa2 bg-white" href="#">↳ Submit your proposal here</a></p>
+        <p><a class="link black hover-bg-white outline pa2 bg-white" href="/submit">↳ Submit your proposal here</a></p>
       </div>
 
       <div class="w-100">

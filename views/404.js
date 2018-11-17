@@ -1,5 +1,4 @@
 var html = require('choo/html')
-
 var TITLE = 'src - route not found'
 
 module.exports = view

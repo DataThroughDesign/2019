@@ -1,13 +1,15 @@
 const html = require('choo/html');
 const Nav = require('../components/Nav');
 
-
 module.exports = view
 
 function view (state, emit) {
 return html`
 
 <body class="avenir lh-copy bg-light-pink pa4">
+  <head>
+    <base href="/2019" target="_self">
+    </head>
   <header>
     ${state.cache(Nav, "Nav", state, emit)}
   </header>

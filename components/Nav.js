@@ -1,18 +1,16 @@
 var Component = require('choo/component')
 var html = require('choo/html')
-var baseUrl = require('./baseUrl')
 
 module.exports = function (name, state, emit) {
 
   let toggleDropdown = function(e){
     e.preventDefault(); 
-    console.log(this.dataset.name)
+    console.log(e.target.dataset.name)
       document.querySelector(`#${this.dataset.name}`).classList.toggle("dn");
   }
 
   return html `
     <nav class="pa3 pa4-ns flex flex-row-ns flex-column">
-      ${baseUrl()};
       <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="/">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
       <section class="flex flex-column justify-center w-100 w-75-ns bt bb">
         <section class="flex flex-row w-100 justify-between pa2 bb">

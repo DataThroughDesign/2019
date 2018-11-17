@@ -1,5 +1,6 @@
 var css = require('sheetify')
 var choo = require('choo')
+var html = require('choo/html')
 
 css('tachyons')
 
@@ -21,5 +22,6 @@ app.route('/workshops', require('./views/workshops'))
 app.route('/submit', require('./views/submit'))
 app.route('/ref', require('./views/ref'))
 app.route('/*', require('./views/404'))
+
 
 module.exports = app.mount('body')
