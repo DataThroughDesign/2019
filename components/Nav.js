@@ -31,7 +31,7 @@ module.exports = function (name, state, emit) {
             <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
             <li class="mr2"> <a class="link black hover-bg-white" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
               <ul id="pastEvents" class="list outline bg-white pa2 dn">
-              <li class="bt pa2">2018</li>
+              <li class="bt pa2"><a class="link black hover-bg-white" href="http://2018.datathroughdesign.com/">2018</a></li>
               </ul>
             </li>
             <li class="mr2"><a class="link black hover-bg-white" href="/submit">Submit</a></li>
