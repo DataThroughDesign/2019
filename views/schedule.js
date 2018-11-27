@@ -18,8 +18,11 @@ return html`
           some of the satellite events of Open Data Week that might also be of interest. Feel free to get in touch if
           you have any questions.</p>
       </div>
-
       <div class="w-100">
+        <h2>Stay tuned! More soon!</h2>
+      </div>
+
+      <div class="w-100 dn">
           <h2>Free floating events</h2>
           <div class="overflow-auto">
             <table class="w-100 mw8" cellspacing="0">
@@ -49,7 +52,7 @@ return html`
           </div>
         </div>
 
-      <div class="w-100">
+      <div class="w-100 dn">
           <h2>Date/Time Specific Events</h2>
         <div class="overflow-auto">
           <table class="w-100 mw8" cellspacing="0">

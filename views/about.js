@@ -11,17 +11,10 @@ return html`
     ${state.cache(Nav, "Nav", state, emit)}
   </header>
   <main class="flex flex-column">
-      <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
-          <div class="w-100">
-          <h1>Contact</h1>
-          <p>For inquiries, please reach out to us at: email@datathroughdesign.com </p>
-          </div>
-      </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100">
       <h1>About <span class="i">Data Through Design</span></h1>
       </div>
-      
       <div class="w-100 w-50-ns pr2">
       <p>As we rapidly evolve into a society of ‘digital natives’ who communicate, interact, and create in the realm
         of the ephemeral, the everyday realities of life in the city become less tangible and begin to loosen their
@@ -53,6 +46,13 @@ return html`
       </div>
 
     </section>
+    <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
+          <div class="w-100">
+          <h1>Contact</h1>
+          <p>For inquiries, please reach out to us at:  </p>
+          <p><span class="b f4">email@datathroughdesign.com</span></p>
+          </div>
+      </section>
   </main>
   <footer class="flex flex-row-ns w-100 pa3 pa4-ns justify-between mt6 bt flex-wrap">
     <p class="f7">#DataThroughDesign19</p>

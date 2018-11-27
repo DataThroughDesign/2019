@@ -1,12 +1,11 @@
 var Component = require('choo/component')
 var html = require('choo/html')
 
-
 module.exports = function (name, state, emit) {
 
   let toggleDropdown = function(e){
     e.preventDefault(); 
-    console.log(this.dataset.name)
+    console.log(e.target.dataset.name)
       document.querySelector(`#${this.dataset.name}`).classList.toggle("dn");
   }
 
@@ -15,15 +14,15 @@ module.exports = function (name, state, emit) {
       <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="/">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
       <section class="flex flex-column justify-center w-100 w-75-ns bt bb">
         <section class="flex flex-row w-100 justify-between pa2 bb">
-          <div class="tl flex-1">March 01 - TBD, 2019</div>
-          <div class="tr">An independently organized exhibition⁺ for data and cartography</div>
+          <div class="tl flex-1 b">March 01 - TBD, 2019</div>
+          <div class="tr b">An independently organized exhibition⁺ for data and cartography</div>
         </section>
         <section class="flex flex-row">
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
             <li class="mr2">
               <a class="link black hover-bg-white" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
               <ul id="programList" class="list outline bg-white pa2 dn">
-                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
+                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibition</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/workshops">Workshops</a></li>
               </ul>
@@ -32,7 +31,7 @@ module.exports = function (name, state, emit) {
             <li class="mr2"><a class="link black hover-bg-white" href="/about">About</a></li>
             <li class="mr2"> <a class="link black hover-bg-white" onclick=${toggleDropdown}  data-name="pastEvents">Past Events ▾</a>
               <ul id="pastEvents" class="list outline bg-white pa2 dn">
-              <li class="bt pa2">2018</li>
+              <li class="bt pa2"><a class="link black hover-bg-white" href="http://2018.datathroughdesign.com/" target="_blank">2018</a></li>
               </ul>
             </li>
             <li class="mr2"><a class="link black hover-bg-white" href="/submit">Submit</a></li>
