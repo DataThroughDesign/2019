@@ -21,6 +21,7 @@ app.route('/talks', require('./views/talks'))
 app.route('/workshops', require('./views/workshops'))
 app.route('/submit', require('./views/submit'))
 app.route('/ref', require('./views/ref'))
+app.route('/support', require('./views/support'))
 app.route('/*', require('./views/404'))
 
 
