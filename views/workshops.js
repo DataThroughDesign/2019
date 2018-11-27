@@ -13,20 +13,13 @@ return html`
   <main class="flex flex-column">
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100 w-100-ns">
-        <h1>Workshop Series</h1>
+        <h1>Workshops</h1>
       </div>
       <div class="w-100 w-50-ns pr2">
-        <p>We invite interested folks to come and give a 2-3 hour workshop on a topic of interest regarding open data.
-          We particularly are interested host workshops that help people to better understand, work with, contribute
-          to, and make sense of NYC's open data through various methods such as visualization, mapping (of course!), data analysis, and
-          storytelling.</p>
+        <p><span class="i">Data Through Design</span> is as much about art as it is about education. We believe that civic engagement starts with building more ways to participate in shaping the city. </p>
       </div>
       <div class="w-100 w-50-ns">
-          <p>Not sure if your idea fits? <a class="link black underline" href="/submit">Submit a proposal</a> anyways and we'll get back to you. We're happy to hear your ideas.</p>
-        <p class="dn">This year we are happy to host the following people and their workshops:</p>
-        <ul class="dn">
-          <li><a href="">Person</a>, <a href="">Talk Title</a> </li>
-        </ul>
+        <p>As part of Open Data Week, we look forward to organizing a 1-2 workshops that speak to ways in which you can start working with NYC's open data, whether through visualization, analysis, data collection, and more!</p>
       </div>
     </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
@@ -34,7 +27,7 @@ return html`
           <h1>2019 Workshops</h1>
         </div>
         <div class="w-100 w-80-ns pr2">
-          <p>Interested to give a wokrshop for DTD'19?  <a class="link black underline" href="/submit">Submit a proposal</a></p>
+            <p>Workshops to be announced. Stay tuned!</p>
         </div>
   
         <div class="w-100 w-80-ns pr2 dn">

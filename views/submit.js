@@ -14,20 +14,48 @@ return html`
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100 w-100-ns">
         <h1>Call for Proposals</h1>
-        <p class="w-100 w-60-ns">Submit a proposal to give a talk, workshop, and/or project for DTD 2019.</p>
-        <p class="w-100 w-60-ns">Please refer to the following sections for information about the themes for the open call</p>
-        <ul>
-          <li><a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a></li>
-          <li><a class="link black hover-bg-white underline" href="/talks">Talks</a></li>
-          <li><a class="link black hover-bg-white underline" href="/workshops">Workshops</a></li>
-        </ul>
+        <p class="w-100 w-60-ns">Submit a proposal to exhibit your data art for DTD 2019.</p>
+        <p class="w-100 w-60-ns">Please refer to the <a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a> section for information about this year's theme for the open call</p>
         <p><a class="link black hover-bg-white outline pa2 bg-white" href="/submit">↳ Submit your proposal here</a></p>
       </div>
 
       <div class="w-100">
-        <h2 class="w-100 w-60-ns">Grant Support for Participating Artists, Speakers, and Workshop Leaders</h2>
+        <h2 class="w-100 w-60-ns">Important Dates and Deadlines</h2>
+        <p class="w-100 w-60-ns">Please refer to the following important dates and deadlines for DTD 2019.</p>
+        <div class="overflow-auto">
+          <table class="w-100 w-60-ns mw8" cellspacing="0">
+            <thead>
+              <tr class="stripe-dark">
+                <th class="fw6 tl pa3 bg-white">Date</th>
+                <th class="fw6 tl pa3 bg-white">Action Item</th>
+              </tr>
+            </thead>
+            <tbody class="lh-copy">
+              <tr class="stripe-dark">
+                <td class="pa3">5 Jan 2019 - Midnight</td>
+                <td class="pa3">Exhibition submissions are due</td>
+              </tr>
+              <tr class="stripe-dark">
+                <td class="pa3">12 Jan 2019</td>
+                <td class="pa3">Artists are notified of their acceptance</td>
+              </tr>
+              <tr class="stripe-dark">
+                <td class="pa3">18 Jan 2019</td>
+                <td class="pa3">Artists must confirm participation and send "acknowledgement of understanding"</td>
+              </tr>
+              <tr class="stripe-dark">
+                <td class="pa3">26-28 Feb 2019</td>
+                <td class="pa3">Exhibition setup at venue</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="w-100">
+        <h2 class="w-100 w-60-ns">Grant Support for Participating Artists</h2>
         <p class="w-100 w-60-ns">The DTD committee will award mini grants to support exhibition costs for the selected
-          exhibiting artists. Support (TBD) will also be arranged for speakers and workshop facilitators.</p>
+          exhibiting artists.</p>
         <div class="overflow-auto">
           <table class="w-100 w-60-ns mw8" cellspacing="0">
             <thead>
@@ -41,11 +69,11 @@ return html`
                 <td class="pa3">Exhibitor/Artist</td>
                 <td class="pa3">$600 USD</td>
               </tr>
-              <tr class="stripe-dark">
+              <tr class="stripe-dark dn">
                 <td class="pa3">Speaker/Talks</td>
                 <td class="pa3">TBD</td>
               </tr>
-              <tr class="stripe-dark">
+              <tr class="stripe-dark dn">
                 <td class="pa3">Workshop</td>
                 <td class="pa3">TBD</td>
               </tr>
