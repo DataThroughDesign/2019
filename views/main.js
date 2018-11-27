@@ -63,27 +63,3 @@ return html`
 </body>
 `
 }
-
-/**
-
-<!-- <section class="flex flex-row-ns flex-column w-100 pa3 pa4-ns">
-        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
-            <p class="">events</p>
-          <p class="f3 f2-ns f-headline b ma0">X</p>
-        </div>
-        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline mr2">
-            <p class="">artists</p>
-          <p class="f3 f2-ns f-headline b ma0">8-10</p>
-          
-        </div>
-        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline">
-            <p class="">in association with</p>
-          <p class="f3 f2-ns f-headline b ma0">MODA</p>
-        </div>
-        <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center outline">
-            <p class="">in association with</p>
-          <p class="f3 f2-ns f-headline b ma0">MODA</p>
-        </div>
-    </section> -->
-
-    */

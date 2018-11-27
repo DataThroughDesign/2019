@@ -14,8 +14,8 @@ module.exports = function (name, state, emit) {
       <section class="pa2 flex flex-column w-100 w-25-ns br-ns bt bb-ns flex-wrap f2 f-headline b"><a class="link black hover-bg-white" href="/">Data ✕ Design</a> <br> <span class="f4 i">Data Through Design</span></section>
       <section class="flex flex-column justify-center w-100 w-75-ns bt bb">
         <section class="flex flex-row w-100 justify-between pa2 bb">
-          <div class="tl flex-1">March 01 - TBD, 2019</div>
-          <div class="tr">An independently organized exhibition⁺ for data and cartography</div>
+          <div class="tl flex-1 b">March 01 - TBD, 2019</div>
+          <div class="tr b">An independently organized exhibition⁺ for data and cartography</div>
         </section>
         <section class="flex flex-row">
           <ul class="flex flex-row list justify-between-ns w-100 pa2 flex-wrap justify-start">
