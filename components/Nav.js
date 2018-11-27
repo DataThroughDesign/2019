@@ -22,7 +22,7 @@ module.exports = function (name, state, emit) {
             <li class="mr2">
               <a class="link black hover-bg-white" onclick=${toggleDropdown} data-name="programList">Program ▾</a>
               <ul id="programList" class="list outline bg-white pa2 dn">
-                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibtion</a></li>
+                <li class="bt pa2"><a class="link black hover-bg-white" href="/exhibition">Exhibition</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/talks">Talks</a></li>
                 <li class="bt pa2 pb2"><a class="link black hover-bg-white" href="/workshops">Workshops</a></li>
               </ul>
