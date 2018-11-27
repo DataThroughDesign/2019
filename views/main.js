@@ -42,20 +42,20 @@ return html`
       </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa2 pa2-ns">
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
-        <p class="center f7 b">Mayor's Office of Data Analytics</p>
+        <p class="tc f7 b">Mayor's Office of Data Analytics</p>
         <p class="f3 f2-ns f-headline b ma0 w4 mw4"><a href="https://www1.nyc.gov/site/analytics/index.page" target="_blank"><img src="../assets/NYC_MODA.png" alt="Mayor's Office of Data Analytics"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
-        <p class="center f7 b">PRATT x Spatial Analysis and Visualization Initiative</p>
+        <p class="tc f7 b">PRATT x Spatial Analysis and Visualization Initiative</p>
         <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://commons.pratt.edu/savi/" target="_blank"><img src="../assets/SAVI_PRATT.png" alt="PRATT SAVI"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
-        <p class="center f7 b">Enima.io</p>
+        <p class="tc f7 b">Enima.io</p>
         <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://www.enigma.com/" target="_blank"><img src="../assets/ENIGMA.png" alt="Enigma.io"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
-        <p class="center f7 b"><a class="link black hover-bg-white" href="#">Your Organization Here!</a></p>
-        <p class="f3 f2-ns f-headline b ma0">🦄</p>
+        <p class="tc f7 b"><a class="link black hover-bg-white" href="/support">Become a sponsor!</a></p>
+        <p class="f3 f2-ns f-headline b ma0"><a class="link" href="/support">🦄</a></p>
     </div>
     </section>
   </main>
