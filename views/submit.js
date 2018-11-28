@@ -16,7 +16,7 @@ return html`
         <h1>Call for Proposals</h1>
         <p class="w-100 w-60-ns">Submit a proposal to exhibit your data art for DTD 2019.</p>
         <p class="w-100 w-60-ns">Please refer to the <a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a> section for information about this year's theme for the open call</p>
-        <p><a class="link black hover-bg-white outline pa2 bg-white" href="/submit">↳ Submit your proposal here</a></p>
+        <p><a class="link black hover-bg-white outline pa2 bg-white" href="https://goo.gl/forms/c2pqNPkU6aqwR34r1" target="_blank">↳ Submit your proposal here</a></p>
       </div>
 
       <div class="w-100">
