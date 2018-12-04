@@ -15,7 +15,7 @@ return html`
   </header>
   <main class="flex flex-column">
     <section class="flex flex-row-ns w-100 pa3 pa4-ns flex-column-reverse flex-wrap-reverse">
-      <h2 class="f1-ns f3 headline"><span class="i b">Data Through Design</span> is an annual exhibition celebrating tangible and multimedia expressions New York City's Open Data.</h2>
+      <h2 class="f1-ns f3 headline"><span class="i b">Data Through Design</span> is an annual exhibition celebrating tangible and multimedia expressions of New York City's Open Data.</h2>
     </section>
     <section class="flex flex-row-ns w-100 pa3 pa4-ns flex-column-reverse flex-wrap-reverse">
       <section class="flex flex-column w-100 w-50-l pa4-ns pa2 outline">
