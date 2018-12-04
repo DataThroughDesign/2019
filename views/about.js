@@ -50,7 +50,7 @@ return html`
           <div class="w-100">
           <h1>Contact</h1>
           <p>For inquiries, please reach out to us at:  </p>
-          <p><span class="b f4">email@datathroughdesign.com</span></p>
+          <p><span class="b f4">datathroughdesign@gmail.com</span></p>
           </div>
       </section>
   </main>
