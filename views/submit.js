@@ -36,12 +36,12 @@ return html`
                 <td class="pa3">Exhibition submissions are due</td>
               </tr>
               <tr class="stripe-dark">
-                <td class="pa3">12 Jan 2019</td>
-                <td class="pa3">Artists are notified of their acceptance</td>
+                <td class="pa3">7-12 Jan 2019</td>
+                <td class="pa3">Proposal reviews, quick-and-friendly Interviews, and selections.</td>
               </tr>
               <tr class="stripe-dark">
-                <td class="pa3">18 Jan 2019</td>
-                <td class="pa3">Artists must confirm participation and send "acknowledgement of understanding"</td>
+                <td class="pa3">15 Jan 2019</td>
+                <td class="pa3">Artists confirmed for exhibition.</td>
               </tr>
               <tr class="stripe-dark">
                 <td class="pa3">26-28 Feb 2019</td>

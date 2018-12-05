@@ -42,9 +42,8 @@ return html`
       <p>The exhibition’s audience ranges from the civic technology community, to policy-makers, to the design
         community. Our hope is to enable a space for creative engagement with data and open new perspectives to our
         appreciation and understanding of data.</p>
-        <p>- Jessie, Wenfei, Joey, Michelle, Abe, and Stuart</p>
+        <p>- Jessie, Wenfei, Joey, Michelle, Stephen, Elisabeth, Juan, and Stuart</p>
       </div>
-
     </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
           <div class="w-100">
@@ -61,3 +60,11 @@ return html`
 </body>
 `
 }
+
+// https://prattcenter.net/our-mission/our-people/jessie-braden
+// http://www.wenfeixu.com/
+// https://www.brennancenter.org/expert/elisabeth-mart
+// https://jk-lee.com/work/
+// https://juanfrans.com/
+// https://github.com/stuartlynn/
+// https://twitter.com/SLarrick
