@@ -47,6 +47,10 @@ return html`
                 <td class="pa3">26-28 Feb 2019</td>
                 <td class="pa3">Exhibition setup at venue</td>
               </tr>
+              <tr class="stripe-dark">
+                <td class="pa3">1 Mar 2019</td>
+                <td class="pa3">Exhibition Opening</td>
+              </tr>
             </tbody>
           </table>
         </div>
