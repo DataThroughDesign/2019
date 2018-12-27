@@ -86,6 +86,7 @@ return html`
         </div>
       </div>
 
+      
       <!-- <div class="w-100 w-50-ns pr2">
         <p>As part of DTD, we invite speakers across disciplines to present and facilitate discussion about the theme
           <span class="i"> Everything is a Proxy</span>.</p>
