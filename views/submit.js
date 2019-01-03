@@ -32,11 +32,11 @@ return html`
             </thead>
             <tbody class="lh-copy">
               <tr class="stripe-dark">
-                <td class="pa3">5 Jan 2019 - Midnight</td>
+                <td class="pa3">9 Jan 2019 - Midnight</td>
                 <td class="pa3">Exhibition submissions are due</td>
               </tr>
               <tr class="stripe-dark">
-                <td class="pa3">7-12 Jan 2019</td>
+                <td class="pa3">9-12 Jan 2019</td>
                 <td class="pa3">Proposal reviews, quick-and-friendly Interviews, and selections.</td>
               </tr>
               <tr class="stripe-dark">

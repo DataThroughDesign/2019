@@ -86,7 +86,7 @@ return html`
       </div>
     </section>
 
-    <section class="dn  flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
+    <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100">
         <h1>Helpful References and Data How-Tos</h1>
       </div>
@@ -94,18 +94,9 @@ return html`
         <p>A general rule of thumb of working with data is that 80% of your time will be spent preparing your data to be used for analysis/visualization/materialization. Data preparation -- cleaning, munging, reformating, parsing, filtering, etc -- can be a real "can of worms", which is to say, that it can be tricky even for experts. Below you'll find some handy links and references that might help you along your data handling, analysis, and visualization journies:</p>
         <p>
           <ul>
-            <li><a class="link underline black" href="#">Link to example #1</a>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</li>
-            <li><a class="link underline black" href="#">Link to example #2</a>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</li>
-            <li><a class="link underline black" href="#">Link to example #3</a>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</li>
+            <li><a class="link underline black" href="https://beta.nyc/products/nyc-opendata-classes/">Beta NYC - Open Data 101</a>: Fundamentals of NYC Open Data.</li>
+            <li><a class="link underline black" href="https://www.data2go.nyc/map/#10/40.7095/-73.9794">DATA2GO.NYC</a>: DATA2GO.NYC is a free, easy-to-use online mapping and data tool created by the nonprofit Measure of America of the Social Science Research Council with funding from The Leona M. and Harry B. Helmsley Charitable Trust. It brings together for the first time federal, state, and city data on a broad range of issues critical to the well-being of all New Yorkers.</li>
+            <li><a class="link underline black" href="https://opendata.cityofnewyork.us/how-to/">Open Data NYC How To</a>: A Getting Started With Open Data Guide by the NYC Open Data.</li>
           </ul>
         </p>
       </div>
