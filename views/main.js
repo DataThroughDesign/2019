@@ -54,6 +54,14 @@ return html`
         <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://www.enigma.com/" target="_blank"><img src="../assets/ENIGMA.png" alt="Enigma.io"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">Stae.co</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://stae.co/" target="_blank"><img src="../assets/STAE_CO.jpg" alt="stae.co"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">Carto</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://stae.co/" target="_blank"><img src="../assets/CARTO.png" alt="Carto.com"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
         <p class="tc f7 b"><a class="link black hover-bg-white" href="/support">Become a sponsor!</a></p>
         <p class="f3 f2-ns f-headline b ma0"><a class="link" href="/support">🦄</a></p>
     </div>
