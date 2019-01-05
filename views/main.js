@@ -55,7 +55,7 @@ return html`
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
         <p class="tc f7 b">Stae.co</p>
-        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://stae.co/" target="_blank"><img src="../assets/STAE_CO.png" alt="stae.co"></a></p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://stae.co/" target="_blank"><img src="../assets/STAE.png" alt="stae.co"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
         <p class="tc f7 b">Carto</p>
