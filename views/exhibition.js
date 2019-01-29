@@ -35,7 +35,33 @@ return html`
         <h1>2019 Artists</h1>
       </div>
       <div class="w-100 w-80-ns pr2">
-        <p>Interested to be be commissioned for DTD'19? <a class="link black underline hover-bg-white" href="/submit">Submit a proposal!</a></p>
+        <p>Data Through Design 2019 will be supporting a total of 9 projects. The selections were made based on the artist's portfolio, the strength of their proposal, and the overall connection of their work with the other projects that were selected. We believe these projects offers a unique contribution to this year's DxD theme — Not a Number (NaN) - and are happy to support their work.</p>
+        <ul class="">
+        <li><a class="link underline black" href="https://crystalpenalosa.info/Select-design-work-with-littleBits">Crystal Penalosa</a></li>
+          <li><a class="link underline black" href="http://karlmunstedt.com/">Karl Munstedt</a></li>
+          <li><a class="link underline black" href="http://www.itayniv.com/">Itay Niv</a></li>
+          <li><a class="link underline black" href="https://www.instagram.com/stuffbyana/">Ana Mengote</a></li>
+          <li>
+            <a class="link underline black" href="https://www.ericforman.com/" target="_blank">Eric Forman</a>
+          </li>
+          <li>
+            <a class="link underline black" href="https://ru-design.org/" target="_blank">Mollie Ruskin</a> & 
+            <a class="link underline black" href="http://www.averyseriousdesigner.com/" target="_blank">Xena Ni</a>
+          </li>
+          <li>
+            <a class="link underline black" href="https://scalarvectortensor.net" target="_blank">Achim Koh</a> & 
+            <a class="link underline black" href="http://wonyoung.so" target="_blank">Wonyoung So</a>
+          </li>
+          <li>
+            <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Stephanie	Luu</a> & 
+            <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Andrew Lin</a>
+          </li>
+          <li>
+            <a class="link underline black" href="#" target="_blank">Nicolas Grefenstette</a> & 
+            <a class="link underline black" href="https://pierredepaz.net/" target="_blank">Pierre Depaz</a>
+          </li>
+
+        </ul>
       </div>
 
       <div class="w-100 w-80-ns pr2 dn">
