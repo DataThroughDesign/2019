@@ -35,30 +35,59 @@ return html`
         <h1>2019 Artists</h1>
       </div>
       <div class="w-100 w-80-ns pr2">
-        <p>Data Through Design 2019 will be supporting a total of 9 projects. The selections were made based on the artist's portfolio, the strength of their proposal, and the overall connection of their work with the other projects that were selected. We believe these projects offers a unique contribution to this year's DxD theme — Not a Number (NaN) - and are happy to support their work.</p>
+        <p>Data Through Design 2019 will be supporting a total of 9 projects. The selections were made based on the artist's portfolio, the strength of their proposal, and the overall connection of their work with the other projects that were selected. We believe these projects offers a unique contribution to this year's DxD theme — Not a Number (NaN) - and are happy to support their work. The artists bios and their forthcoming project titles are shown below.</p>
         <ul class="">
-        <li><a class="link underline black" href="https://crystalpenalosa.info/Select-design-work-with-littleBits">Crystal Penalosa</a></li>
-          <li><a class="link underline black" href="http://karlmunstedt.com/">Karl Munstedt</a></li>
-          <li><a class="link underline black" href="http://www.itayniv.com/">Itay Niv</a></li>
-          <li><a class="link underline black" href="https://www.instagram.com/stuffbyana/">Ana Mengote</a></li>
-          <li>
-            <a class="link underline black" href="https://www.ericforman.com/" target="_blank">Eric Forman</a>
+          <li><b>Crystal Penalosa & Melissa De La Cruz</b>, <i>Temporal Views of the Bike Lane</i>
+            <ul>
+            <li><a class="link underline black" href="https://crystalpenalosa.info/Select-design-work-with-littleBits">Crystal Penalosa</a> & <a class="link underline black" href="http://www.bitsandatoms.net/">Melissa De La Cruz</a> : Crystal Penalosa (she/they) is an American artist and interdisciplinary designer based in New York. Their work as an artist focuses on queer identity, utilizing modular electronics and voice. She has performed collaboratively and solo in New York at Issue Project Room, Roulette Intermedium, Sediment Gallery, MoMA PS1, Experimental Intermedia, SPEKTRUM in Berlin, and the Golden Pudel in Hamburg. Crystal currently works at Stae as the community engineer, collaboratively developing hardware prototypes with cities to solve problems. They hold a Masters Degree in Urban Planning from NYU’s Wagner School of Public Service. </li>
+            </ul>
           </li>
-          <li>
-            <a class="link underline black" href="https://ru-design.org/" target="_blank">Mollie Ruskin</a> & 
-            <a class="link underline black" href="http://www.averyseriousdesigner.com/" target="_blank">Xena Ni</a>
+          <li><b>Karl Munstedt</b>, <i>Collision Course</i>
+            <ul>
+            <li><a class="link underline black" href="http://karlmunstedt.com/">Karl Munstedt</a>: Karl is digital artist and technologist living and working in Brooklyn, NY. He was born in Boston, MA and grew up spending much of his time on the internet befriending strangers and finding numerous cyber boyfriends. Using technologies like game engines, augmented reality, and the web, his work explores issues of queerness, future, and fantasy. Karl's work has previously exhibited at queertech.io and FILE festival. He received a BFA in Interactive Art from Pratt Institute in 2018. </li>
+            </ul>
           </li>
-          <li>
-            <a class="link underline black" href="https://scalarvectortensor.net" target="_blank">Achim Koh</a> & 
-            <a class="link underline black" href="http://wonyoung.so" target="_blank">Wonyoung So</a>
+          <li><b>Itay Niv</b>, <i>NYC Trees Soundscape</i>
+            <ul>
+            <li><a class="link underline black" href="http://www.itayniv.com/">Itay Niv</a>: Itay Niv is an interactive and visual designer with more than 10 years of experience in the intersections of motion and interaction design, working in a wide array of formats and domains, bridging the digital and the physical. He holds a bachelor's of design from Bezalel Academy of Arts and Design in Jerusalem. Currently based in NYC, attending NYU's Interactive Telecommunications Program (ITP) in Tisch school of arts where he explores intersections in the fields of augmented and virtual reality, music, machine learning and interactive media.</li>
+            </ul>
           </li>
-          <li>
-            <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Stephanie	Luu</a> & 
-            <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Andrew Lin</a>
+          <li><b>Ana Mengote</b>, <i>Exhausted New York</i>
+            <ul>
+              <li><a class="link underline black" href="https://www.instagram.com/stuffbyana/">Ana Mengote</a>: Ana Mengote is an Industrial Designer that spends her time between New York, Seattle, and Manila. She recently started school at Columbia University's GSAPP to marry her design background, to larger-scale urban needs.</li>
+            </ul>
           </li>
-          <li>
-            <a class="link underline black" href="#" target="_blank">Nicolas Grefenstette</a> & 
-            <a class="link underline black" href="https://pierredepaz.net/" target="_blank">Pierre Depaz</a>
+          <li><b>Eric Forman</b>, <i>UnBuilding</i>
+            <ul>
+              <li><a class="link underline black" href="https://www.ericforman.com/" target="_blank">Eric Forman</a>: Eric Forman is a Brooklyn-based artist and designer working with interactive installations, responsive sculpture, and digital fabrication. His work is open-ended and exploratory, crossing boundaries between fine art, design, performance, and architecture. </li>
+            </ul>
+          </li>
+          <li><b>Mollie Ruskin & Xena Ni</b>, <i>Tempo: Human Rhythm of a New York Day</i>
+            <ul>
+              <li><a class="link underline black" href="https://ru-design.org/" target="_blank">Mollie Ruskin</a> & <a class="link underline black" href="http://www.averyseriousdesigner.com/" target="_blank">Xena Ni</a>: Mollie Ruskin and Xena Ni are designers, artists, and organizers who design and build interactive experiences for the public good.  They believe in dignity and democracy at scale and that public institutions should work with and for the people they serve. Mollie and Xena work with government partners, community organizations, and art collectives to help their local communities become more representative, equitable, and just.</li>
+            </ul>
+          </li>
+          <li> <b>Achim Koh & Wonyoung So</b>, <i>From Point A to Point B</i>
+            <ul>
+              <li><a class="link underline black" href="https://scalarvectortensor.net" target="_blank">Achim Koh</a>: Achim Koh is a researcher, software developer and translator. His work engages the technopolitics of machine learning, digital culture, musical interfaces, and the web. </li>
+              <li><a class="link underline black" href="http://wonyoung.so" target="_blank">Wonyoung So</a>: Wonyoung So is a data visualization designer and researcher. His main interests are about bottom-up driven data movement, and he is interested in how the open-source and DIY movement will affect the urban space. He is currently a graduate student of the Department of Urban Studies and Planning at the Massachusetts Institute of Technology (MIT). </li>
+            </ul>
+          </li>
+          <li> <b>Stephanie Luu & Andrew Lin</b>, <i>Cards Against Hate</i>
+            <ul>
+              <li>
+              <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Stephanie Luu</a>: Stephanie graduated from the University of Texas at Austin with a bachelor’s degree in business and was a technology consultant before moving to NYC two years ago, where she fostered her career change to her current role as a visual designer for KPMG Innovation Labs. She enjoys opportunities where she can harness the synergy (old habits never die) from both her past and present focus areas: problem solving, visual design, and fun. She is also collaborating with Andrew to provide the graphic design for a fun, improv-based party game named Skittish!. 
+              </li>
+              <li>
+              <a class="link underline black" href="https://www.skittishgame.com/" target="_blank">Andrew Lin</a>: Andrew holds a bachelor’s degree in business from the University of Michigan and an MBA from the University of North Carolina. He was a management consultant in the life sciences sector for 4 years before working on entrepreneurial ventures full-time. One of these ventures is Skittish Games LLC, which develops card-based board & party games. Andrew is currently working with Stephanie on Skittish, the flagship game for the company.
+              </li>
+            </ul>
+          </li>
+          <li> <b>Nicolas Grefenstette &  Pierre Depaz</b>, <i>Below, just a point</i>
+            <ul>
+              <li><a class="link underline black" href="https://pierredepaz.net/" target="_blank">Pierre Depaz</a>: Pierre is an educator, artist and programmer from France. He currently teaches at multiple NYU campuses. He is interested in the multiple ways computers are attempting to represent and interface with human concepts and emotions. His academic research revolves around simulation, semantics and public organization through technological means, while his artistic practice includes digital games, computer simulations, interactive installations, networked performances and experimental web projects, and has been exhibited in NYC, Paris, Cairo, Abu Dhabi, Brussels and Berlin. </li>
+              <li><a class="link underline black" href="#" target="_blank">Nicolas Grefenstette</a> is a landscape designer and urban planner. His academic background in cultural and human geography at University College London (UCL) and his experiences living and observing cities across Europe, Asia and the United States have led him to complete his graduate studies at Cornell University in Ithaca, New York, where he focused on the reclamation of industrial and underutilized urban land. He currently works for Starr Whitehouse Landscape Architects and Planners, where he designs public space in New York City.</li>
+            </ul>
           </li>
 
         </ul>
