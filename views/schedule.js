@@ -18,41 +18,8 @@ return html`
           some of the satellite events of Open Data Week that might also be of interest. Feel free to get in touch if
           you have any questions.</p>
       </div>
+      
       <div class="w-100">
-        <h2>Stay tuned! More soon!</h2>
-      </div>
-
-      <div class="w-100 dn">
-          <h2>Free floating events</h2>
-          <div class="overflow-auto">
-            <table class="w-100 mw8" cellspacing="0">
-              <thead>
-                <tr class="stripe-dark">
-                  <th class="fw6 tl pa3 bg-white">Date</th>
-                  <th class="fw6 tl pa3 bg-white">Event</th>
-                  <th class="fw6 tl pa3 bg-white">Location</th>
-                  <th class="fw6 tl pa3 bg-white">Time</th>
-                </tr>
-              </thead>
-              <tbody class="lh-copy">
-                <tr class="stripe-dark">
-                  <td class="pa3">March 1 - 31, 2019</td>
-                  <td class="pa3">Exhibition Open to Public</td>
-                  <td class="pa3">TBD</td>
-                  <td class="pa3">6:00 PM - 11:00 PM</td>
-                </tr>
-                <tr class="stripe-dark">
-                  <td class="pa3">March 2, 2019</td>
-                  <td class="pa3">Exhibition Opening</td>
-                  <td class="pa3">TBD</td>
-                  <td class="pa3">6:00 PM - 11:00 PM</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-      <div class="w-100 dn">
           <h2>Date/Time Specific Events</h2>
         <div class="overflow-auto">
           <table class="w-100 mw8" cellspacing="0">
@@ -62,34 +29,24 @@ return html`
                 <th class="fw6 tl pa3 bg-white">Event</th>
                 <th class="fw6 tl pa3 bg-white">Location</th>
                 <th class="fw6 tl pa3 bg-white">Time</th>
+                <th class="fw6 tl pa3 bg-white">Registration</th>
               </tr>
             </thead>
             <tbody class="lh-copy">
               <tr class="stripe-dark">
                 <td class="pa3">March 1, 2019</td>
                 <td class="pa3">Exhibition Opening</td>
-                <td class="pa3">TBD</td>
-                <td class="pa3">6:00 PM - 11:00 PM</td>
+                <td class="pa3">New Lab, 19 Morris Avenue, #building 128, Brooklyn, NY 11205 </td>
+                <td class="pa3">6:30 PM - 10:00 PM</td>
+                <td class="pa3"><a class="link underline black b" href="https://www.eventbrite.com/e/data-through-design-exhibit-opening-night-tickets-55657070797" target="_blank">Eventbrite Registration</a></td>
               </tr>
-              <tr class="stripe-dark">
-                <td class="pa3">March 2, 2019</td>
-                <td class="pa3">Exhibition Opening</td>
-                <td class="pa3">TBD</td>
-                <td class="pa3">6:00 PM - 11:00 PM</td>
-              </tr>
-              <tr class="stripe-dark">
-                <td class="pa3">March 3, 2019</td>
-                <td class="pa3">Exhibition Opening</td>
-                <td class="pa3">TBD</td>
-                <td class="pa3">6:00 PM - 11:00 PM</td>
-              </tr>
-              <tr class="stripe-dark">
+              <tr class="stripe-dark dn">
                 <td class="pa3">March 4, 2019</td>
                 <td class="pa3">Exhibition Opening</td>
                 <td class="pa3">TBD</td>
                 <td class="pa3">6:00 PM - 11:00 PM</td>
               </tr>
-              <tr class="stripe-dark">
+              <tr class="stripe-dark dn">
                   <td class="pa3">March 5, 2019</td>
                 <td class="pa3">Exhibition Opening</td>
                 <td class="pa3">TBD</td>
@@ -100,6 +57,31 @@ return html`
         </div>
       </div>
 
+      <div class="w-100">
+          <h2>Free floating events</h2>
+          <div class="overflow-auto">
+            <table class="w-100 mw8" cellspacing="0">
+              <thead>
+                <tr class="stripe-dark">
+                  <th class="fw6 tl pa3 bg-white">Date</th>
+                  <th class="fw6 tl pa3 bg-white">Event</th>
+                  <th class="fw6 tl pa3 bg-white">Location</th>
+                  <th class="fw6 tl pa3 bg-white">Time</th>
+                  <th class="fw6 tl pa3 bg-white">Registration</th>
+                </tr>
+              </thead>
+              <tbody class="lh-copy">
+                <tr class="stripe-dark">
+                  <td class="pa3">March 1 - March 11, 2019</td>
+                  <td class="pa3">Exhibition Open to Public with Registration</td>
+                  <td class="pa3">New Lab, 19 Morris Avenue, #building 128, Brooklyn, NY 11205 </td>
+                  <td class="pa3">6:30 PM - 10:00 PM</td>
+                  <td class="pa3"><a class="link underline black b" href="https://www.eventbrite.com/e/data-through-design-exhibition-tickets-55667565186" target="_blank">Eventbrite Registration</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
 
     </section>
