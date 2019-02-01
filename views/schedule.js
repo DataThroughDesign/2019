@@ -16,7 +16,7 @@ return html`
         <h1>Schedule <span class="i">2019</span></h1>
         <p class="w-100 w-60-ns ">The schedule for 2019 is shown below. In addition to the DTD hosted events, we've also included
           some of the satellite events of Open Data Week that might also be of interest. Feel free to get in touch if
-          you have any questions.</p>
+          you have any questions. <span class="b">NOTE: Registration is required to attend all exhibit functions</span>.</p>
       </div>
       
       <div class="w-100">
