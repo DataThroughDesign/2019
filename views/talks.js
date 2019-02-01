@@ -14,7 +14,7 @@ return html`
   <main class="flex flex-column">
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100 w-100-ns">
-        <h1>Talk Series: Everything is a Proxy</h1>
+        <h1>Panel Discussion: Everything is a Proxy</h1>
       </div>
       <div class="w-100 w-50-ns pr2">
         <p>As part of DTD, we invite speakers across disciplines to present and facilitate discussion about the theme
@@ -34,7 +34,7 @@ return html`
     </section>
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
         <div class="w-100">
-          <h1>2019 Talks</h1>
+          <h1>2019 Panel Discussion</h1>
         </div>
         <div class="w-100 w-80-ns pr2">
           <p>Talks to be announced. Stay tuned!</p>

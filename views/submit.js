@@ -14,9 +14,11 @@ return html`
     <section class="flex flex-row-ns flex-column w-100 w-100-ns pa3 pa4-ns flex-wrap">
       <div class="w-100 w-100-ns">
         <h1>Call for Proposals</h1>
-        <p class="w-100 w-60-ns">Submit a proposal to exhibit your data art for DTD 2019.</p>
-        <p class="w-100 w-60-ns">Please refer to the <a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a> section for information about this year's theme for the open call</p>
-        <p><a class="link black hover-bg-white outline pa2 bg-white" href="/submit">↳ Submit your proposal here</a></p>
+        <p class="dn w-100 w-60-ns">Submit a proposal to exhibit your data art for DTD 2019.</p>
+        <p class="dn w-100 w-60-ns">Please refer to the <a class="link black hover-bg-white underline" href="/exhibition">Exhibition</a> section for information about this year's theme for the open call</p>
+        <p><a class="link black hover-bg-white outline pa2 bg-white dn" href="https://goo.gl/forms/c2pqNPkU6aqwR34r1" target="_blank">↳ Submit your proposal here</a></p>
+        <p>Thanks for your interest, but submissions are now closed. Please try next year!</p>
+        <p>You can browse our 2019 artists on our <a class="link black underline" href="/exhibition">Exhibition page.</a></p>
       </div>
 
       <div class="w-100">
@@ -32,20 +34,24 @@ return html`
             </thead>
             <tbody class="lh-copy">
               <tr class="stripe-dark">
-                <td class="pa3">5 Jan 2019 - Midnight</td>
+                <td class="pa3">9 Jan 2019 - Midnight</td>
                 <td class="pa3">Exhibition submissions are due</td>
               </tr>
               <tr class="stripe-dark">
-                <td class="pa3">12 Jan 2019</td>
-                <td class="pa3">Artists are notified of their acceptance</td>
+                <td class="pa3">9-12 Jan 2019</td>
+                <td class="pa3">Proposal reviews, quick-and-friendly Interviews, and selections.</td>
               </tr>
               <tr class="stripe-dark">
-                <td class="pa3">18 Jan 2019</td>
-                <td class="pa3">Artists must confirm participation and send "acknowledgement of understanding"</td>
+                <td class="pa3">15 Jan 2019</td>
+                <td class="pa3">Artists confirmed for exhibition.</td>
               </tr>
               <tr class="stripe-dark">
                 <td class="pa3">26-28 Feb 2019</td>
                 <td class="pa3">Exhibition setup at venue</td>
+              </tr>
+              <tr class="stripe-dark">
+                <td class="pa3">1 Mar 2019</td>
+                <td class="pa3">Exhibition Opening</td>
               </tr>
             </tbody>
           </table>
@@ -82,6 +88,7 @@ return html`
         </div>
       </div>
 
+      
       <!-- <div class="w-100 w-50-ns pr2">
         <p>As part of DTD, we invite speakers across disciplines to present and facilitate discussion about the theme
           <span class="i"> Everything is a Proxy</span>.</p>

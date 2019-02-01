@@ -15,7 +15,7 @@ return html`
   </header>
   <main class="flex flex-column">
     <section class="flex flex-row-ns w-100 pa3 pa4-ns flex-column-reverse flex-wrap-reverse">
-      <h2 class="f1-ns f3 headline"><span class="i b">Data Through Design</span> is an annual exhibition celebrating tangible and multimedia expressions New York City's Open Data.</h2>
+      <h2 class="f1-ns f3 headline"><span class="i b">Data Through Design</span> is an annual exhibition celebrating tangible and multimedia expressions of New York City's Open Data.</h2>
     </section>
     <section class="flex flex-row-ns w-100 pa3 pa4-ns flex-column-reverse flex-wrap-reverse">
       <section class="flex flex-column w-100 w-50-l pa4-ns pa2 outline">
@@ -29,7 +29,9 @@ return html`
           to speak to the ways in which space and place are being transformed and shaped by the numbers that are meant
           to represent complexity in the everyday. We ask our artists to reflect on the stories within our city’s open
           data that speak to the undefined or unrepresentable value of the things that the data may be hiding.</p>
-        <p><a class="link black outline bg-white pa2" href="/submit"> ↳ Submit a proposal</a></p>
+        <p class="dn"><a class="link black outline bg-white pa2" href="/submit"> ↳ Submit a proposal</a></p>
+        <p class="w-100 outline bg-white pa2 b"><a class="link black" href="https://www.eventbrite.com/e/data-through-design-exhibit-opening-night-tickets-55657070797" target="_blank"> ↳ Tickets - Free: Opening Night Event - March 1</a> <br> <small>*registration required</small></p>
+        <p class="w-100 outline bg-white pa2 b"><a class="link black" href="https://www.eventbrite.com/e/data-through-design-exhibition-tickets-55667565186" target="_blank"> ↳ Tickets - Free: Visit the Exhibit - March 1 - 11</a> <br> <small>*registration required</small></p>
       </section>
       <section class="flex flex-column w-100 w-50-l pa4-ns pa2 justify-center items-center">
         <h2 class="f5 f3-ns f-subsubheadline i">...how are the fundamentally unquantifiable things, the things that should
@@ -46,12 +48,28 @@ return html`
         <p class="f3 f2-ns f-headline b ma0 w4 mw4"><a href="https://www1.nyc.gov/site/analytics/index.page" target="_blank"><img src="../assets/NYC_MODA.png" alt="Mayor's Office of Data Analytics"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
-        <p class="tc f7 b">PRATT x Spatial Analysis and Visualization Initiative</p>
+        <p class="tc f7 b">Pratt Institute Spatial Analysis and Visualization Initiative</p>
         <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://commons.pratt.edu/savi/" target="_blank"><img src="../assets/SAVI_PRATT.png" alt="PRATT SAVI"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
         <p class="tc f7 b">Enima.io</p>
         <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://www.enigma.com/" target="_blank"><img src="../assets/ENIGMA.png" alt="Enigma.io"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">Stae.co</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://stae.co/" target="_blank"><img src="../assets/STAE_Logo.png" alt="stae.co"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">Carto</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://carto.com/" target="_blank"><img src="../assets/CARTO.png" alt="Carto.com"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">New Lab</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://newlab.com/" target="_blank"><img src="../assets/NEWLAB.jpg" alt="newlab.com/"></a></p>
+      </div>
+      <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
+        <p class="tc f7 b">NYU ITP</p>
+        <p class="f3 f2-ns f-headline b ma0 mw4 w4"><a href="https://tisch.nyu.edu/itp" target="_blank"><img src="../assets/ITP.png" alt="itp.nyu.edu/"></a></p>
       </div>
       <div class="w-33-ns w-100 h5 flex flex-column justify-center items-center mr2">
         <p class="tc f7 b"><a class="link black hover-bg-white" href="/support">Become a sponsor!</a></p>
